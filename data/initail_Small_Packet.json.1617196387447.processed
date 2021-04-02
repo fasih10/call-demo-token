@@ -1,0 +1,1938 @@
+[
+	{
+		"_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Mar  9, 2021 20:30:00.279150000 Pakistan Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1615303800.279150000",
+          "frame.time_delta": "0.000703000",
+          "frame.time_delta_displayed": "0.000703000",
+          "frame.time_relative": "1.428305000",
+          "frame.number": "520",
+          "frame.len": "554",
+          "frame.cap_len": "554",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:sctp:m3ua:bicc:m3ua:bicc:m3ua:bicc:m3ua:bicc:m3ua:bicc:m3ua:bicc"
+        },
+        "eth": {
+          "eth.dst": "00:00:5e:00:01:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "IETF-VRRP-VRID_04",
+            "eth.addr": "00:00:5e:00:01:04",
+            "eth.addr_resolved": "IETF-VRRP-VRID_04",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:46:4b:58:f6:24",
+          "eth.src_tree": {
+            "eth.src_resolved": "HuaweiTe_58:f6:24",
+            "eth.addr": "00:46:4b:58:f6:24",
+            "eth.addr_resolved": "HuaweiTe_58:f6:24",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000002",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "540",
+          "ip.id": "0x0000cfff",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0",
+            "ip.frag_offset": "0"
+          },
+          "ip.ttl": "255",
+          "ip.proto": "132",
+          "ip.checksum": "0x0000fdcd",
+          "ip.checksum.status": "2",
+          "ip.src": "10.64.110.7",
+          "ip.addr": "10.64.110.7",
+          "ip.src_host": "10.64.110.7",
+          "ip.host": "10.64.110.7",
+          "ip.dst": "10.64.105.7",
+          "ip.addr": "10.64.105.7",
+          "ip.dst_host": "10.64.105.7",
+          "ip.host": "10.64.105.7"
+        },
+        "sctp": {
+          "sctp.srcport": "1857",
+          "sctp.dstport": "1857",
+          "sctp.verification_tag": "0x5dd607d5",
+          "sctp.assoc_index": "28",
+          "sctp.port": "1857",
+          "sctp.port": "1857",
+          "sctp.checksum": "0x3c395977",
+          "sctp.checksum.status": "2",
+          "DATA chunk(ordered, complete segment, TSN: 994892031, SID: 1, SSN: 2606, PPID: 3, payload length: 40 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "56",
+            "sctp.data_tsn": "994892031",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "621",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.255436000"
+              }
+            },
+            "sctp.data_sid": "0x00000001",
+            "sctp.data_ssn": "2606",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "40",
+          "Protocol data (SS7 message of 15 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "31",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "6",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "6"
+            },
+            "m3ua.parameter_padding": "00"
+          }
+        },
+        "bicc": {
+          "bicc.cic": "3988",
+          "isup.message_type": "44",
+          "Event information : ALERTING (1)": {
+            "isup.parameter_type": "36",
+            "isup.event_ind": "1",
+            "isup.event_presentation_restr_ind": "0"
+          },
+          "isup.optional_parameter_part_pointer": "1",
+          "Parameter: (t=17, l=2) Backward call indicators: Backward call indicators : 0x201": {
+            "isup.parameter_type": "17",
+            "isup.parameter_length": "2",
+            "isup.charge_indicator": "0x00000002",
+            "isup.called_partys_status_indicator": "0x00000000",
+            "isup.called_partys_category_indicator": "0x00000000",
+            "isup.backw_call_end_to_end_method_indicator": "0x00000000",
+            "isup.backw_call_interworking_indicator": "1",
+            "isup.backw_call_end_to_end_information_indicator": "0",
+            "isup.backw_call_isdn_user_part_indicator": "0",
+            "isup.backw_call_holding_indicator": "0",
+            "isup.backw_call_isdn_access_indicator": "0",
+            "isup.backw_call_echo_control_device_indicator": "0",
+            "isup.backw_call_sccp_method_indicator": "0x00000000"
+          },
+          "Parameter: (t=41, l=1) Backward call indicators: Backward call indicators : 0x1": {
+            "isup.parameter_type": "41",
+            "isup.parameter_length": "1",
+            "isup.inband_information_ind": "1",
+            "isup.call_diversion_may_occur_ind": "0",
+            "isup.simple_segmentation_ind": "0",
+            "isup.mlpp_user": "0"
+          },
+          "isup.parameter_type": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892032, SID: 1, SSN: 2607, PPID: 3, payload length: 36 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "52",
+            "sctp.data_tsn": "994892032",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "621",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.255436000"
+              }
+            },
+            "sctp.data_sid": "0x00000001",
+            "sctp.data_ssn": "2607",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "36",
+          "Protocol data (SS7 message of 10 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "26",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "6",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "6"
+            },
+            "m3ua.parameter_padding": "00:00"
+          }
+        },
+        "bicc": {
+          "bicc.cic": "16367",
+          "isup.message_type": "12",
+          "Cause indicators": {
+            "isup.parameter_type": "18",
+            "isup.mandatory_variable_parameter_pointer": "2",
+            "isup.parameter_length": "2",
+            "isup.cause_indicators": "82:90",
+            "q931.cause_location": "2",
+            "q931.coding_standard": "0x00000000",
+            "q931.extension_ind": "1",
+            "isup.cause_indicator": "16",
+            "q931.extension_ind": "1"
+          },
+          "isup.optional_parameter_part_pointer": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892033, SID: 1, SSN: 2608, PPID: 3, payload length: 36 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "52",
+            "sctp.data_tsn": "994892033",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "621",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.255436000"
+              }
+            },
+            "sctp.data_sid": "0x00000001",
+            "sctp.data_ssn": "2608",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "36",
+          "Protocol data (SS7 message of 10 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "26",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "6",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "6"
+            },
+            "m3ua.parameter_padding": "00:00"
+          }
+        },
+        "bicc": {
+          "bicc.cic": "7001",
+          "isup.message_type": "12",
+          "Cause indicators": {
+            "isup.parameter_type": "18",
+            "isup.mandatory_variable_parameter_pointer": "2",
+            "isup.parameter_length": "2",
+            "isup.cause_indicators": "82:90",
+            "q931.cause_location": "2",
+            "q931.coding_standard": "0x00000000",
+            "q931.extension_ind": "1",
+            "isup.cause_indicator": "16",
+            "q931.extension_ind": "1"
+          },
+          "isup.optional_parameter_part_pointer": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892034, SID: 9, SSN: 43941, PPID: 3, payload length: 32 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "48",
+            "sctp.data_tsn": "994892034",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "621",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.255436000"
+              }
+            },
+            "sctp.data_sid": "0x00000009",
+            "sctp.data_ssn": "43941",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "32",
+          "Protocol data (SS7 message of 8 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "24",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "14",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "14"
+            }
+          }
+        },
+        "bicc": {
+          "bicc.cic": "10870",
+          "isup.message_type": "6",
+          "Backward Call Indicators : 0x1634": {
+            "isup.parameter_type": "17",
+            "isup.charge_indicator": "0x00000002",
+            "isup.called_partys_status_indicator": "0x00000001",
+            "isup.called_partys_category_indicator": "0x00000001",
+            "isup.backw_call_end_to_end_method_indicator": "0x00000000",
+            "isup.backw_call_interworking_indicator": "0",
+            "isup.backw_call_end_to_end_information_indicator": "0",
+            "isup.backw_call_isdn_user_part_indicator": "1",
+            "isup.backw_call_holding_indicator": "0",
+            "isup.backw_call_isdn_access_indicator": "1",
+            "isup.backw_call_echo_control_device_indicator": "1",
+            "isup.backw_call_sccp_method_indicator": "0x00000000"
+          },
+          "isup.optional_parameter_part_pointer": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892035, SID: 9, SSN: 43942, PPID: 3, payload length: 104 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "120",
+            "sctp.data_tsn": "994892035",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "621",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.255436000"
+              }
+            },
+            "sctp.data_sid": "0x00000009",
+            "sctp.data_ssn": "43942",
+            "sctp.data_payload_proto_id": "3"
+          },
+          "DATA chunk(ordered, complete segment, TSN: 994892036, SID: 9, SSN: 43943, PPID: 3, payload length: 164 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "180",
+            "sctp.data_tsn": "994892036",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "621",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.255436000"
+              }
+            },
+            "sctp.data_sid": "0x00000009",
+            "sctp.data_ssn": "43943",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "104",
+          "Protocol data (SS7 message of 77 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "93",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "14",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "14"
+            }
+          }
+        },
+        "bicc": {
+          "bicc.cic": "24302",
+          "isup.message_type": "65",
+          "isup.optional_parameter_part_pointer": "1",
+          "Parameter: (t=120, l=68) Application transport: Application transport": {
+            "isup.parameter_type": "120",
+            "isup.parameter_length": "68",
+            "isup.app_transport_param_field": "0x00000085",
+            "isup.app_transport_param_field_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_context_identifier": "5"
+            },
+            "isup.app_transport_instruction_indicator": "0x00000081",
+            "isup.app_transport_instruction_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_Send_notification_ind": "0",
+              "isup.app_Release_call_indicator": "1"
+            },
+            "isup.apm_seg_indicator": "0x000000c0",
+            "isup.apm_seg_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.APM_Sequence_ind": "1",
+              "isup.apm_segmentation_ind": "0"
+            },
+            "isup.orig_addr_len": "0",
+            "isup.dest_addr_len": "0",
+            "isup.apm_user_info_field": "01:82:83:05:02:85:83:ff:ff:ff:ff:04:a4:83:05:84:83:02:0a:00:05:86:83:02:06:ff:ff:08:05:86:83:02:05:ff:ff:08:05:86:83:01:53:00:00:00:05:83:83:01:01:05:84:83:02:0a:00:0a:86:83:00:54:00:00:00",
+            "Bearer Association Transport (BAT) Application Service Element (ASE) Encapsulated Application Information:": {
+              "isup.extension_ind": "1",
+              "BAT ASE Element 1, Identifier: Action Indicator - connect forward, no notification + selected codec": {
+                "bicc.bat_ase_identifier": "1",
+                "bicc.bat_ase_length_indicator": "2",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_bat_ase_action_indicator_field": "5"
+              },
+              "isup.extension_ind": "1",
+              "BAT ASE Element 2, Identifier: Backbone Network Connection Identifier - 0xffffffff": {
+                "bicc.bat_ase_identifier": "2",
+                "bicc.bat_ase_length_indicator": "5",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bat_ase.bncid": "0xffffffff"
+              },
+              "isup.extension_ind": "1",
+              "BAT ASE Element 3, Identifier: Codec List": {
+                "bicc.bat_ase_identifier": "4",
+                "bicc.bat_ase_length_indicator": "36",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "4",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "10",
+                "bat_ase.acs": "0x00000000",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000000",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000000",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000000",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000000"
+                },
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "6",
+                "bat_ase.acs": "0x000000ff",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000001",
+                  "bat_ase.acs.10_2": "0x00000001",
+                  "bat_ase.acs.7_95": "0x00000001",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000001",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000001",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x000000ff",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000001",
+                  "bat_ase.scs.10_2": "0x00000001",
+                  "bat_ase.scs.7_95": "0x00000001",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000001",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000001",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "0",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "5",
+                "bat_ase.acs": "0x000000ff",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000001",
+                  "bat_ase.acs.10_2": "0x00000001",
+                  "bat_ase.acs.7_95": "0x00000001",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000001",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000001",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x000000ff",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000001",
+                  "bat_ase.scs.10_2": "0x00000001",
+                  "bat_ase.scs.7_95": "0x00000001",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000001",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000001",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "0",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "1",
+                "bat_ase.ITU_T_codec_type_subfield": "83",
+                "bicc.bat_ase_identifier": "0",
+                "bicc.bat_ase_length_indicator": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000001",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "1",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "0",
+                "bat_ase.organization_identifier_subfield": "131"
+              }
+            }
+          }
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "164",
+          "Protocol data (SS7 message of 139 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "155",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "14",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "14"
+            }
+          }
+        },
+        "bicc": {
+          "bicc.cic": "10870",
+          "isup.message_type": "1",
+          "Nature of Connection Indicators : 0x10": {
+            "isup.parameter_type": "6",
+            "isup.satellite_indicator": "0x00000000",
+            "isup.continuity_check_indicator": "0x00000000",
+            "isup.echo_control_device_indicator": "1"
+          },
+          "Forward Call Indicators : 0x6001": {
+            "isup.parameter_type": "7",
+            "isup.forw_call_natnl_inatnl_call_indicator": "0",
+            "isup.forw_call_end_to_end_method_indicator": "0x00000000",
+            "isup.forw_call_interworking_indicator": "0",
+            "isup.forw_call_end_to_end_information_indicator": "0",
+            "isup.forw_call_isdn_user_part_indicator": "1",
+            "isup.forw_call_preferences_indicator": "0x00000001",
+            "isup.forw_call_isdn_access_indicator": "1",
+            "isup.forw_call_sccp_method_indicator": "0x00000000",
+            "isup.forw_call_ported_num_trans_indicator": "0",
+            "isup.forw_call_qor_attempt_indicator": "0"
+          },
+          "Calling Party's category : 0xa (ordinary calling subscriber)": {
+            "isup.parameter_type": "9",
+            "isup.calling_partys_category": "10"
+          },
+          "Transmission medium requirement : 0 (speech)": {
+            "isup.parameter_type": "2",
+            "isup.transmission_medium_requirement": "0"
+          },
+          "Called Party NumberCalled Party Number: 3162190883F": {
+            "isup.parameter_type": "4",
+            "isup.mandatory_variable_parameter_pointer": "2",
+            "isup.parameter_length": "8",
+            "isup.isdn_odd_even_indicator": "1",
+            "isup.called_party_nature_of_address_indicator": "3",
+            "isup.inn_indicator": "1",
+            "isup.numbering_plan_indicator": "1",
+            "isup.called": "3162190883F",
+            "isup.called_tree": {
+              "isup.called_party_odd_address_signal_digit": "3",
+              "isup.called_party_even_address_signal_digit": "1",
+              "isup.called_party_odd_address_signal_digit": "6",
+              "isup.called_party_even_address_signal_digit": "2",
+              "isup.called_party_odd_address_signal_digit": "1",
+              "isup.called_party_even_address_signal_digit": "9",
+              "isup.called_party_odd_address_signal_digit": "0",
+              "isup.called_party_even_address_signal_digit": "8",
+              "isup.called_party_odd_address_signal_digit": "8",
+              "isup.called_party_even_address_signal_digit": "3",
+              "isup.called_party_odd_address_signal_digit": "15",
+              "e164.called_party_number.digits": "3162190883F"
+            }
+          },
+          "isup.optional_parameter_part_pointer": "10",
+          "Parameter: (t=49, l=2) Propagation delay counter: Propagation delay counter: counter = 0 ms": {
+            "isup.parameter_type": "49",
+            "isup.parameter_length": "2",
+            "isup.propagation_delay_counter": "0"
+          },
+          "Parameter: (t=10, l=7) Calling party number: Calling party numberCalling Party Number: 3166382316": {
+            "isup.parameter_type": "10",
+            "isup.parameter_length": "7",
+            "isup.isdn_odd_even_indicator": "0",
+            "isup.calling_party_nature_of_address_indicator": "3",
+            "isup.ni_indicator": "0",
+            "isup.numbering_plan_indicator": "1",
+            "isup.address_presentation_restricted_indicator": "0",
+            "isup.screening_indicator": "3",
+            "isup.calling": "3166382316",
+            "isup.calling_tree": {
+              "isup.calling_party_odd_address_signal_digit": "3",
+              "isup.calling_party_even_address_signal_digit": "1",
+              "isup.calling_party_odd_address_signal_digit": "6",
+              "isup.calling_party_even_address_signal_digit": "6",
+              "isup.calling_party_odd_address_signal_digit": "3",
+              "isup.calling_party_even_address_signal_digit": "8",
+              "isup.calling_party_odd_address_signal_digit": "2",
+              "isup.calling_party_even_address_signal_digit": "3",
+              "isup.calling_party_odd_address_signal_digit": "1",
+              "isup.calling_party_even_address_signal_digit": "6",
+              "e164.calling_party_number.digits": "3166382316"
+            }
+          },
+          "Parameter: (t=63, l=4) Location number: Location numberLocation number: 9291": {
+            "isup.parameter_type": "63",
+            "isup.parameter_length": "4",
+            "isup.isdn_odd_even_indicator": "0",
+            "isup.calling_party_nature_of_address_indicator": "4",
+            "isup.inn_indicator": "1",
+            "isup.numbering_plan_indicator": "1",
+            "isup.address_presentation_restricted_indicator": "1",
+            "isup.screening_indicator": "3",
+            "isup.location_number": "9291",
+            "isup.location_number_tree": {
+              "isup.calling_party_odd_address_signal_digit": "9",
+              "isup.calling_party_even_address_signal_digit": "2",
+              "isup.calling_party_odd_address_signal_digit": "9",
+              "isup.calling_party_even_address_signal_digit": "1"
+            }
+          },
+          "Parameter: (t=29, l=3) User service information: User service information": {
+            "isup.parameter_type": "29",
+            "isup.parameter_length": "3",
+            "isup.user_service_information": "80:90:a3",
+            "q931.extension_ind": "1",
+            "q931.coding_standard": "0x00000000",
+            "q931.information_transfer_capability": "0x00000000",
+            "q931.extension_ind": "1",
+            "q931.transfer_mode": "0x00000000",
+            "q931.information_transfer_rate": "0x00000010",
+            "q931.extension_ind": "1",
+            "q931.layer_ident": "0x00000001",
+            "q931.uil1": "3"
+          },
+          "Parameter: (t=1, l=5) Call Reference (national use): Call Reference (national use) : Call ID = 3813665, SPC = 5000": {
+            "isup.parameter_type": "1",
+            "isup.parameter_length": "5",
+            "isup.call_identity": "3813665",
+            "isup.signalling_point_code": "2067"
+          },
+          "Parameter: (t=8, l=1) Optional forward call indicators: Optional forward call indicators : non-CUG call (0)": {
+            "isup.parameter_type": "8",
+            "isup.parameter_length": "1",
+            "isup.clg_call_ind": "0",
+            "isup.simple_segmentation_ind": "0",
+            "isup.connected_line_identity_request_ind": "0"
+          },
+          "Parameter: (t=120, l=81) Application transport: Application transport": {
+            "isup.parameter_type": "120",
+            "isup.parameter_length": "81",
+            "isup.app_transport_param_field": "0x00000085",
+            "isup.app_transport_param_field_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_context_identifier": "5"
+            },
+            "isup.app_transport_instruction_indicator": "0x00000081",
+            "isup.app_transport_instruction_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_Send_notification_ind": "0",
+              "isup.app_Release_call_indicator": "1"
+            },
+            "isup.apm_seg_indicator": "0x000000c0",
+            "isup.apm_seg_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.APM_Sequence_ind": "1",
+              "isup.apm_segmentation_ind": "0"
+            },
+            "isup.orig_addr_len": "0",
+            "isup.dest_addr_len": "0",
+            "isup.apm_user_info_field": "01:82:83:02:04:b6:83:05:86:83:02:03:95:95:0c:05:83:83:02:02:05:83:83:02:00:05:86:83:02:04:15:15:0b:05:83:83:02:01:05:84:83:02:0a:04:05:86:83:01:53:00:00:00:05:86:83:01:52:00:00:00:07:82:83:04:09:82:83:01:0a:86:83:00:55:00:00:00",
+            "Bearer Association Transport (BAT) Application Service Element (ASE) Encapsulated Application Information:": {
+              "isup.extension_ind": "1",
+              "BAT ASE Element 1, Identifier: Action Indicator - connect forward": {
+                "bicc.bat_ase_identifier": "1",
+                "bicc.bat_ase_length_indicator": "2",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_bat_ase_action_indicator_field": "2"
+              },
+              "isup.extension_ind": "1",
+              "BAT ASE Element 2, Identifier: Codec List": {
+                "bicc.bat_ase_identifier": "4",
+                "bicc.bat_ase_length_indicator": "54",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "3",
+                "bat_ase.acs": "0x00000095",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000001",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x00000095",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000001",
+                  "bat_ase.scs.10_2": "0x00000000",
+                  "bat_ase.scs.7_95": "0x00000000",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000000",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000000",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "4",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "3",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "2",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "3",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "0",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "4",
+                "bat_ase.acs": "0x00000015",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000000",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x00000015",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000000",
+                  "bat_ase.scs.10_2": "0x00000000",
+                  "bat_ase.scs.7_95": "0x00000000",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000000",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000000",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "3",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "3",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "1",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "4",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "10",
+                "bat_ase.acs": "0x00000004",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000000",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000000",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000000"
+                },
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "1",
+                "bat_ase.ITU_T_codec_type_subfield": "83",
+                "bicc.bat_ase_identifier": "0",
+                "bicc.bat_ase_length_indicator": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000001",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "1",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "0",
+                "bat_ase.organization_identifier_subfield": "134"
+              }
+            }
+          }
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+	},
+
+
+
+{
+		"_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Mar  9, 2021 20:30:04.279150000 Pakistan Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1615303800.279150000",
+          "frame.time_delta": "0.000703000",
+          "frame.time_delta_displayed": "0.000703000",
+          "frame.time_relative": "1.431828000",
+          "frame.number": "523",
+          "frame.len": "554",
+          "frame.cap_len": "554",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:sctp:m3ua:bicc:m3ua:bicc:m3ua:bicc:m3ua:bicc:m3ua:bicc:m3ua:bicc"
+        },
+        "eth": {
+          "eth.dst": "00:00:5e:00:01:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "IETF-VRRP-VRID_04",
+            "eth.addr": "00:00:5e:00:01:04",
+            "eth.addr_resolved": "IETF-VRRP-VRID_04",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:46:4b:58:f6:24",
+          "eth.src_tree": {
+            "eth.src_resolved": "HuaweiTe_58:f6:24",
+            "eth.addr": "00:46:4b:58:f6:24",
+            "eth.addr_resolved": "HuaweiTe_58:f6:24",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000002",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "540",
+          "ip.id": "0x0000cfff",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0",
+            "ip.frag_offset": "0"
+          },
+          "ip.ttl": "255",
+          "ip.proto": "132",
+          "ip.checksum": "0x0000fdcd",
+          "ip.checksum.status": "2",
+          "ip.src": "10.64.110.7",
+          "ip.addr": "10.64.110.7",
+          "ip.src_host": "10.64.110.7",
+          "ip.host": "10.64.110.7",
+          "ip.dst": "10.64.105.7",
+          "ip.addr": "10.64.105.7",
+          "ip.dst_host": "10.64.105.7",
+          "ip.host": "10.64.105.7"
+        },
+        "sctp": {
+          "sctp.srcport": "1857",
+          "sctp.dstport": "1857",
+          "sctp.verification_tag": "0x5dd607d5",
+          "sctp.assoc_index": "11",
+          "sctp.port": "1857",
+          "sctp.port": "1857",
+          "sctp.checksum": "0x3c395977",
+          "sctp.checksum.status": "2",
+          "DATA chunk(ordered, complete segment, TSN: 994892031, SID: 1, SSN: 2606, PPID: 3, payload length: 40 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "56",
+            "sctp.data_tsn": "994892031",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "687",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.483515000"
+              }
+            },
+            "sctp.data_sid": "0x00000001",
+            "sctp.data_ssn": "2606",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "40",
+          "Protocol data (SS7 message of 15 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "31",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "6",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "6"
+            },
+            "m3ua.parameter_padding": "00"
+          }
+        },
+        "bicc": {
+          "bicc.cic": "3988",
+          "isup.message_type": "44",
+          "Event information : ALERTING (1)": {
+            "isup.parameter_type": "36",
+            "isup.event_ind": "1",
+            "isup.event_presentation_restr_ind": "0"
+          },
+          "isup.optional_parameter_part_pointer": "1",
+          "Parameter: (t=17, l=2) Backward call indicators: Backward call indicators : 0x201": {
+            "isup.parameter_type": "17",
+            "isup.parameter_length": "2",
+            "isup.charge_indicator": "0x00000002",
+            "isup.called_partys_status_indicator": "0x00000000",
+            "isup.called_partys_category_indicator": "0x00000000",
+            "isup.backw_call_end_to_end_method_indicator": "0x00000000",
+            "isup.backw_call_interworking_indicator": "1",
+            "isup.backw_call_end_to_end_information_indicator": "0",
+            "isup.backw_call_isdn_user_part_indicator": "0",
+            "isup.backw_call_holding_indicator": "0",
+            "isup.backw_call_isdn_access_indicator": "0",
+            "isup.backw_call_echo_control_device_indicator": "0",
+            "isup.backw_call_sccp_method_indicator": "0x00000000"
+          },
+          "Parameter: (t=41, l=1) Backward call indicators: Backward call indicators : 0x1": {
+            "isup.parameter_type": "41",
+            "isup.parameter_length": "1",
+            "isup.inband_information_ind": "1",
+            "isup.call_diversion_may_occur_ind": "0",
+            "isup.simple_segmentation_ind": "0",
+            "isup.mlpp_user": "0"
+          },
+          "isup.parameter_type": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892032, SID: 1, SSN: 2607, PPID: 3, payload length: 36 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "52",
+            "sctp.data_tsn": "994892032",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "687",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.483515000"
+              }
+            },
+            "sctp.data_sid": "0x00000001",
+            "sctp.data_ssn": "2607",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "36",
+          "Protocol data (SS7 message of 10 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "26",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "6",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "6"
+            },
+            "m3ua.parameter_padding": "00:00"
+          }
+        },
+        "bicc": {
+          "bicc.cic": "16367",
+          "isup.message_type": "12",
+          "Cause indicators": {
+            "isup.parameter_type": "18",
+            "isup.mandatory_variable_parameter_pointer": "2",
+            "isup.parameter_length": "2",
+            "isup.cause_indicators": "82:90",
+            "q931.cause_location": "2",
+            "q931.coding_standard": "0x00000000",
+            "q931.extension_ind": "1",
+            "isup.cause_indicator": "16",
+            "q931.extension_ind": "1"
+          },
+          "isup.optional_parameter_part_pointer": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892033, SID: 1, SSN: 2608, PPID: 3, payload length: 36 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "52",
+            "sctp.data_tsn": "994892033",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "687",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.483515000"
+              }
+            },
+            "sctp.data_sid": "0x00000001",
+            "sctp.data_ssn": "2608",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "36",
+          "Protocol data (SS7 message of 10 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "26",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "6",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "6"
+            },
+            "m3ua.parameter_padding": "00:00"
+          }
+        },
+        "bicc": {
+          "bicc.cic": "7001",
+          "isup.message_type": "12",
+          "Cause indicators": {
+            "isup.parameter_type": "18",
+            "isup.mandatory_variable_parameter_pointer": "2",
+            "isup.parameter_length": "2",
+            "isup.cause_indicators": "82:90",
+            "q931.cause_location": "2",
+            "q931.coding_standard": "0x00000000",
+            "q931.extension_ind": "1",
+            "isup.cause_indicator": "16",
+            "q931.extension_ind": "1"
+          },
+          "isup.optional_parameter_part_pointer": "0"
+        },
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892034, SID: 9, SSN: 43941, PPID: 3, payload length: 32 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "48",
+            "sctp.data_tsn": "994892034",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "687",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.483515000"
+              }
+            },
+            "sctp.data_sid": "0x00000009",
+            "sctp.data_ssn": "43941",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "32",
+          "Protocol data (SS7 message of 8 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "24",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "14",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "14"
+            }
+          }
+        },
+       
+        "sctp": {
+          "DATA chunk(ordered, complete segment, TSN: 994892035, SID: 9, SSN: 43942, PPID: 3, payload length: 104 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "120",
+            "sctp.data_tsn": "994892035",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "687",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.483515000"
+              }
+            },
+            "sctp.data_sid": "0x00000009",
+            "sctp.data_ssn": "43942",
+            "sctp.data_payload_proto_id": "3"
+          },
+          "DATA chunk(ordered, complete segment, TSN: 994892036, SID: 9, SSN: 43943, PPID: 3, payload length: 164 bytes)": {
+            "sctp.chunk_type": "0",
+            "sctp.chunk_type_tree": {
+              "sctp.chunk_bit_1": "0",
+              "sctp.chunk_bit_2": "0"
+            },
+            "sctp.chunk_flags": "0x00000003",
+            "sctp.chunk_flags_tree": {
+              "sctp.data_e_bit": "1",
+              "sctp.data_b_bit": "1",
+              "sctp.data_u_bit": "0",
+              "sctp.data_i_bit": "0"
+            },
+            "sctp.chunk_length": "180",
+            "sctp.data_tsn": "994892036",
+            "sctp.data_tsn_tree": {
+              "sctp.acked": "687",
+              "sctp.acked_tree": {
+                "sctp.data_rtt": "0.483515000"
+              }
+            },
+            "sctp.data_sid": "0x00000009",
+            "sctp.data_ssn": "43943",
+            "sctp.data_payload_proto_id": "3"
+          }
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "104",
+          "Protocol data (SS7 message of 77 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "93",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "14",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "14"
+            }
+          }
+        },
+        "bicc": {
+          "bicc.cic": "24302",
+          "isup.message_type": "65",
+          "isup.optional_parameter_part_pointer": "1",
+          "Parameter: (t=120, l=68) Application transport: Application transport": {
+            "isup.parameter_type": "120",
+            "isup.parameter_length": "68",
+            "isup.app_transport_param_field": "0x00000085",
+            "isup.app_transport_param_field_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_context_identifier": "5"
+            },
+            "isup.app_transport_instruction_indicator": "0x00000081",
+            "isup.app_transport_instruction_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_Send_notification_ind": "0",
+              "isup.app_Release_call_indicator": "1"
+            },
+            "isup.apm_seg_indicator": "0x000000c0",
+            "isup.apm_seg_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.APM_Sequence_ind": "1",
+              "isup.apm_segmentation_ind": "0"
+            },
+            "isup.orig_addr_len": "0",
+            "isup.dest_addr_len": "0",
+            "isup.apm_user_info_field": "01:82:83:05:02:85:83:ff:ff:ff:ff:04:a4:83:05:84:83:02:0a:00:05:86:83:02:06:ff:ff:08:05:86:83:02:05:ff:ff:08:05:86:83:01:53:00:00:00:05:83:83:01:01:05:84:83:02:0a:00:0a:86:83:00:54:00:00:00",
+            "Bearer Association Transport (BAT) Application Service Element (ASE) Encapsulated Application Information:": {
+              "isup.extension_ind": "1",
+              "BAT ASE Element 1, Identifier: Action Indicator - connect forward, no notification + selected codec": {
+                "bicc.bat_ase_identifier": "1",
+                "bicc.bat_ase_length_indicator": "2",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_bat_ase_action_indicator_field": "5"
+              },
+              "isup.extension_ind": "1",
+              "BAT ASE Element 2, Identifier: Backbone Network Connection Identifier - 0xffffffff": {
+                "bicc.bat_ase_identifier": "2",
+                "bicc.bat_ase_length_indicator": "5",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bat_ase.bncid": "0xffffffff"
+              },
+              "isup.extension_ind": "1",
+              "BAT ASE Element 3, Identifier: Codec List": {
+                "bicc.bat_ase_identifier": "4",
+                "bicc.bat_ase_length_indicator": "36",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "4",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "10",
+                "bat_ase.acs": "0x00000000",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000000",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000000",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000000",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000000"
+                },
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "6",
+                "bat_ase.acs": "0x000000ff",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000001",
+                  "bat_ase.acs.10_2": "0x00000001",
+                  "bat_ase.acs.7_95": "0x00000001",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000001",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000001",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x000000ff",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000001",
+                  "bat_ase.scs.10_2": "0x00000001",
+                  "bat_ase.scs.7_95": "0x00000001",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000001",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000001",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "0",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "5",
+                "bat_ase.acs": "0x000000ff",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000001",
+                  "bat_ase.acs.10_2": "0x00000001",
+                  "bat_ase.acs.7_95": "0x00000001",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000001",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000001",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x000000ff",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000001",
+                  "bat_ase.scs.10_2": "0x00000001",
+                  "bat_ase.scs.7_95": "0x00000001",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000001",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000001",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "0",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "1",
+                "bat_ase.ITU_T_codec_type_subfield": "83",
+                "bicc.bat_ase_identifier": "0",
+                "bicc.bat_ase_length_indicator": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000001",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "1",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "0",
+                "bat_ase.organization_identifier_subfield": "131"
+              }
+            }
+          }
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        },
+        "m3ua": {
+          "m3ua.version": "1",
+          "m3ua.reserved": "0x00000000",
+          "m3ua.message_class": "1",
+          "m3ua.message_type": "1",
+          "m3ua.message_length": "164",
+          "Protocol data (SS7 message of 139 bytes)": {
+            "m3ua.parameter_tag": "528",
+            "m3ua.parameter_length": "155",
+            "m3ua.protocol_data_opc": "5000",
+            "m3ua.protocol_data_dpc": "5138",
+            "m3ua.protocol_data_si": "13",
+            "m3ua.protocol_data_ni": "2",
+            "m3ua.protocol_data_mp": "0",
+            "m3ua.protocol_data_sls": "14",
+            "MTP3 equivalents": {
+              "mtp3.opc": "5000",
+              "mtp3.dpc": "5138",
+              "mtp3.pc": "5000",
+              "mtp3.pc": "5138",
+              "mtp3.ni": "2",
+              "mtp3.sls": "14"
+            }
+          }
+        },
+        "bicc": {
+          "bicc.cic": "30749",
+          "isup.message_type": "1",
+          "Nature of Connection Indicators : 0x10": {
+            "isup.parameter_type": "6",
+            "isup.satellite_indicator": "0x00000000",
+            "isup.continuity_check_indicator": "0x00000000",
+            "isup.echo_control_device_indicator": "1"
+          },
+          "Forward Call Indicators : 0x6001": {
+            "isup.parameter_type": "7",
+            "isup.forw_call_natnl_inatnl_call_indicator": "0",
+            "isup.forw_call_end_to_end_method_indicator": "0x00000000",
+            "isup.forw_call_interworking_indicator": "0",
+            "isup.forw_call_end_to_end_information_indicator": "0",
+            "isup.forw_call_isdn_user_part_indicator": "1",
+            "isup.forw_call_preferences_indicator": "0x00000001",
+            "isup.forw_call_isdn_access_indicator": "1",
+            "isup.forw_call_sccp_method_indicator": "0x00000000",
+            "isup.forw_call_ported_num_trans_indicator": "0",
+            "isup.forw_call_qor_attempt_indicator": "0"
+          },
+          "Calling Party's category : 0xa (ordinary calling subscriber)": {
+            "isup.parameter_type": "9",
+            "isup.calling_partys_category": "10"
+          },
+          "Transmission medium requirement : 0 (speech)": {
+            "isup.parameter_type": "2",
+            "isup.transmission_medium_requirement": "0"
+          },
+          "Called Party NumberCalled Party Number: 3162190883F": {
+            "isup.parameter_type": "4",
+            "isup.mandatory_variable_parameter_pointer": "2",
+            "isup.parameter_length": "8",
+            "isup.isdn_odd_even_indicator": "1",
+            "isup.called_party_nature_of_address_indicator": "3",
+            "isup.inn_indicator": "1",
+            "isup.numbering_plan_indicator": "1",
+            "isup.called": "3162190883F",
+            "isup.called_tree": {
+              "isup.called_party_odd_address_signal_digit": "3",
+              "isup.called_party_even_address_signal_digit": "1",
+              "isup.called_party_odd_address_signal_digit": "6",
+              "isup.called_party_even_address_signal_digit": "2",
+              "isup.called_party_odd_address_signal_digit": "1",
+              "isup.called_party_even_address_signal_digit": "9",
+              "isup.called_party_odd_address_signal_digit": "0",
+              "isup.called_party_even_address_signal_digit": "8",
+              "isup.called_party_odd_address_signal_digit": "8",
+              "isup.called_party_even_address_signal_digit": "3",
+              "isup.called_party_odd_address_signal_digit": "15",
+              "e164.called_party_number.digits": "3162190883F"
+            }
+          },
+          "isup.optional_parameter_part_pointer": "10",
+          "Parameter: (t=49, l=2) Propagation delay counter: Propagation delay counter: counter = 0 ms": {
+            "isup.parameter_type": "49",
+            "isup.parameter_length": "2",
+            "isup.propagation_delay_counter": "0"
+          },
+          "Parameter: (t=10, l=7) Calling party number: Calling party numberCalling Party Number: 3166382316": {
+            "isup.parameter_type": "10",
+            "isup.parameter_length": "7",
+            "isup.isdn_odd_even_indicator": "0",
+            "isup.calling_party_nature_of_address_indicator": "3",
+            "isup.ni_indicator": "0",
+            "isup.numbering_plan_indicator": "1",
+            "isup.address_presentation_restricted_indicator": "0",
+            "isup.screening_indicator": "3",
+            "isup.calling": "3166382316",
+            "isup.calling_tree": {
+              "isup.calling_party_odd_address_signal_digit": "3",
+              "isup.calling_party_even_address_signal_digit": "1",
+              "isup.calling_party_odd_address_signal_digit": "6",
+              "isup.calling_party_even_address_signal_digit": "6",
+              "isup.calling_party_odd_address_signal_digit": "3",
+              "isup.calling_party_even_address_signal_digit": "8",
+              "isup.calling_party_odd_address_signal_digit": "2",
+              "isup.calling_party_even_address_signal_digit": "3",
+              "isup.calling_party_odd_address_signal_digit": "1",
+              "isup.calling_party_even_address_signal_digit": "6",
+              "e164.calling_party_number.digits": "3166382316"
+            }
+          },
+          "Parameter: (t=63, l=4) Location number: Location numberLocation number: 9291": {
+            "isup.parameter_type": "63",
+            "isup.parameter_length": "4",
+            "isup.isdn_odd_even_indicator": "0",
+            "isup.calling_party_nature_of_address_indicator": "4",
+            "isup.inn_indicator": "1",
+            "isup.numbering_plan_indicator": "1",
+            "isup.address_presentation_restricted_indicator": "1",
+            "isup.screening_indicator": "3",
+            "isup.location_number": "9291",
+            "isup.location_number_tree": {
+              "isup.calling_party_odd_address_signal_digit": "9",
+              "isup.calling_party_even_address_signal_digit": "2",
+              "isup.calling_party_odd_address_signal_digit": "9",
+              "isup.calling_party_even_address_signal_digit": "1"
+            }
+          },
+          "Parameter: (t=29, l=3) User service information: User service information": {
+            "isup.parameter_type": "29",
+            "isup.parameter_length": "3",
+            "isup.user_service_information": "80:90:a3",
+            "q931.extension_ind": "1",
+            "q931.coding_standard": "0x00000000",
+            "q931.information_transfer_capability": "0x00000000",
+            "q931.extension_ind": "1",
+            "q931.transfer_mode": "0x00000000",
+            "q931.information_transfer_rate": "0x00000010",
+            "q931.extension_ind": "1",
+            "q931.layer_ident": "0x00000001",
+            "q931.uil1": "3"
+          },
+          "Parameter: (t=1, l=5) Call Reference (national use): Call Reference (national use) : Call ID = 3813665, SPC = 5000": {
+            "isup.parameter_type": "1",
+            "isup.parameter_length": "5",
+            "isup.call_identity": "3813665",
+            "isup.signalling_point_code": "2067"
+          },
+          "Parameter: (t=8, l=1) Optional forward call indicators: Optional forward call indicators : non-CUG call (0)": {
+            "isup.parameter_type": "8",
+            "isup.parameter_length": "1",
+            "isup.clg_call_ind": "0",
+            "isup.simple_segmentation_ind": "0",
+            "isup.connected_line_identity_request_ind": "0"
+          },
+          "Parameter: (t=120, l=81) Application transport: Application transport": {
+            "isup.parameter_type": "120",
+            "isup.parameter_length": "81",
+            "isup.app_transport_param_field": "0x00000085",
+            "isup.app_transport_param_field_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_context_identifier": "5"
+            },
+            "isup.app_transport_instruction_indicator": "0x00000081",
+            "isup.app_transport_instruction_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.app_Send_notification_ind": "0",
+              "isup.app_Release_call_indicator": "1"
+            },
+            "isup.apm_seg_indicator": "0x000000c0",
+            "isup.apm_seg_indicator_tree": {
+              "isup.extension_ind": "1",
+              "isup.APM_Sequence_ind": "1",
+              "isup.apm_segmentation_ind": "0"
+            },
+            "isup.orig_addr_len": "0",
+            "isup.dest_addr_len": "0",
+            "isup.apm_user_info_field": "01:82:83:02:04:b6:83:05:86:83:02:03:95:95:0c:05:83:83:02:02:05:83:83:02:00:05:86:83:02:04:15:15:0b:05:83:83:02:01:05:84:83:02:0a:04:05:86:83:01:53:00:00:00:05:86:83:01:52:00:00:00:07:82:83:04:09:82:83:01:0a:86:83:00:55:00:00:00",
+            "Bearer Association Transport (BAT) Application Service Element (ASE) Encapsulated Application Information:": {
+              "isup.extension_ind": "1",
+              "BAT ASE Element 1, Identifier: Action Indicator - connect forward": {
+                "bicc.bat_ase_identifier": "1",
+                "bicc.bat_ase_length_indicator": "2",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_bat_ase_action_indicator_field": "2"
+              },
+              "isup.extension_ind": "1",
+              "BAT ASE Element 2, Identifier: Codec List": {
+                "bicc.bat_ase_identifier": "4",
+                "bicc.bat_ase_length_indicator": "54",
+                "isup.extension_ind": "1",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "3",
+                "bat_ase.acs": "0x00000095",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000001",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x00000095",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000001",
+                  "bat_ase.scs.10_2": "0x00000000",
+                  "bat_ase.scs.7_95": "0x00000000",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000000",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000000",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "4",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "3",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "2",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "3",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "0",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "4",
+                "bat_ase.acs": "0x00000015",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000000",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000001",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000001"
+                },
+                "bat_ase.scs": "0x00000015",
+                "bat_ase.scs_tree": {
+                  "bat_ase.scs.12_2": "0x00000000",
+                  "bat_ase.scs.10_2": "0x00000000",
+                  "bat_ase.scs.7_95": "0x00000000",
+                  "bat_ase.scs.7_40": "0x00000001",
+                  "bat_ase.scs.6_70": "0x00000000",
+                  "bat_ase.scs.5_90": "0x00000001",
+                  "bat_ase.scs.5_15": "0x00000000",
+                  "bat_ase.scs.4_75": "0x00000001"
+                },
+                "bat_ase.optimisation_mode": "0x00000001",
+                "bat_ase.macs": "3",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "3",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "1",
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "4",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "2",
+                "bat_ase.ETSI_codec_type_subfield": "10",
+                "bat_ase.acs": "0x00000004",
+                "bat_ase.acs_tree": {
+                  "bat_ase.acs.12_2": "0x00000000",
+                  "bat_ase.acs.10_2": "0x00000000",
+                  "bat_ase.acs.7_95": "0x00000000",
+                  "bat_ase.acs.7_40": "0x00000000",
+                  "bat_ase.acs.6_70": "0x00000000",
+                  "bat_ase.acs.5_90": "0x00000001",
+                  "bat_ase.acs.5_15": "0x00000000",
+                  "bat_ase.acs.4_75": "0x00000000"
+                },
+                "bicc.bat_ase_identifier": "5",
+                "bicc.bat_ase_length_indicator": "6",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000003",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "0",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "1",
+                "bat_ase.organization_identifier_subfield": "1",
+                "bat_ase.ITU_T_codec_type_subfield": "83",
+                "bicc.bat_ase_identifier": "0",
+                "bicc.bat_ase_length_indicator": "0",
+                "bicc.bat_ase_Instruction_ind_for_general_action": "0x00000001",
+                "bicc.bat_ase_Send_notification_ind_for_general_action": "1",
+                "bicc.bat_ase_Instruction_ind_for_pass_on_not_possible": "0x00000000",
+                "bicc.bat_ase_Send_notification_ind_for_pass_on_not_possible": "0",
+                "isup.extension_ind": "0",
+                "bat_ase.organization_identifier_subfield": "134"
+              }
+            }
+          }
+        },
+		   "bicc": {
+          "bicc.cic": "10870",
+          "isup.message_type": "6",
+          "Backward Call Indicators : 0x1634": {
+            "isup.parameter_type": "17",
+            "isup.charge_indicator": "0x00000002",
+            "isup.called_partys_status_indicator": "0x00000001",
+            "isup.called_partys_category_indicator": "0x00000001",
+            "isup.backw_call_end_to_end_method_indicator": "0x00000000",
+            "isup.backw_call_interworking_indicator": "0",
+            "isup.backw_call_end_to_end_information_indicator": "0",
+            "isup.backw_call_isdn_user_part_indicator": "1",
+            "isup.backw_call_holding_indicator": "0",
+            "isup.backw_call_isdn_access_indicator": "1",
+            "isup.backw_call_echo_control_device_indicator": "1",
+            "isup.backw_call_sccp_method_indicator": "0x00000000"
+          },
+          "isup.optional_parameter_part_pointer": "0"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+	}
+]
